@@ -21,17 +21,52 @@
     </header>
 
     <main class="report-page">
-        <div class="report-container">
+       <div class="report-container">
 
-            <p class="eyebrow">COMMUNITY REPORT</p>
+    <p class="eyebrow">COMMUNITY REPORT</p>
 
-            <h1>Report a waste issue</h1>
+    <h1>Report a waste issue</h1>
 
-            <p>
-                Help us identify waste problems in your community.
-            </p>
+    <p>
+        Help us identify waste problems in your community.
+    </p>
 
-        </div>
+    <form class="report-form">
+
+        <label for="issue-type">Issue type</label>
+        <select id="issue-type">
+            <option value="">Select an issue</option>
+            <option value="illegal-dumping">Illegal dumping</option>
+            <option value="overflowing-bin">Overflowing bin</option>
+            <option value="plastic-waste">Plastic waste</option>
+            <option value="construction-waste">Construction waste</option>
+            <option value="other">Other</option>
+        </select>
+
+        <label for="location">Location</label>
+        <input
+            type="text"
+            id="location"
+            placeholder="Enter the location"
+        >
+
+        <label for="description">Description</label>
+        <textarea
+            id="description"
+            rows="5"
+            placeholder="Describe the waste problem..."
+        ></textarea>
+
+        <label for="photo">Upload photo</label>
+        <input type="file" id="photo" accept="image/*">
+
+        <button type="submit" class="primary-btn">
+            Submit Report
+        </button>
+
+    </form>
+
+</div>
     </main>
 
 </body>
