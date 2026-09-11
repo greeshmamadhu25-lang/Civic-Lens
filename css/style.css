@@ -47,3 +47,49 @@ nav a {
 nav a:hover {
     color: #166534;
 }
+.hero {
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    padding: 80px 8%;
+    background: #f5f7f6;
+}
+
+.hero-content {
+    max-width: 700px;
+}
+
+.eyebrow {
+    color: #166534;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    line-height: 1.1;
+    margin-bottom: 24px;
+}
+
+.hero-text {
+    max-width: 560px;
+    font-size: 1.1rem;
+    color: #52606d;
+    margin-bottom: 32px;
+}
+
+.primary-btn {
+    border: none;
+    background: #166534;
+    color: white;
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.primary-btn:hover {
+    background: #14532d;
+}
