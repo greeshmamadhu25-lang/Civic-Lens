@@ -18,6 +18,7 @@ h1 {
 p {
     color: #52606d;
 }
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -47,6 +48,7 @@ nav a {
 nav a:hover {
     color: #166534;
 }
+
 .hero {
     min-height: 75vh;
     display: flex;
@@ -81,6 +83,8 @@ nav a:hover {
 }
 
 .primary-btn {
+    display: inline-block;
+    text-decoration: none;
     border: none;
     background: #166534;
     color: white;
@@ -93,6 +97,7 @@ nav a:hover {
 .primary-btn:hover {
     background: #14532d;
 }
+
 .report-page {
     min-height: 75vh;
     padding: 70px 8%;
