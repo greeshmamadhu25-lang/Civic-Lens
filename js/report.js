@@ -5,6 +5,7 @@ import { db, auth } from "./firebase.js";
 const reportForm = document.querySelector(".report-form");
 
 reportForm.addEventListener("submit", async (event) => {
+    alert("Submit event is working!");
     event.preventDefault();
 
     const user = auth.currentUser;
