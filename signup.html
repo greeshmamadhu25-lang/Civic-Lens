@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Create Account | CivicLens</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">CivicLens</div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="report.html">Report Issue</a>
+            <a href="my-reports.html">My Reports</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <main class="auth-page">
+
+        <div class="auth-container">
+
+            <p class="eyebrow">JOIN CIVICLENS</p>
+
+            <h1>Create an account</h1>
+
+            <p class="auth-description">
+                Create an account to report and track community issues.
+            </p>
+
+            <form class="auth-form">
+
+                <label for="name">Full name</label>
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your full name"
+                    required
+                >
+
+                <label for="email">Email address</label>
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+                <label for="password">Password</label>
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Create a password"
+                    required
+                >
+
+                <button type="submit" class="primary-btn">
+                    Create Account
+                </button>
+
+            </form>
+
+            <p class="auth-footer">
+                Already have an account?
+                <a href="login.html">Login</a>
+            </p>
+
+        </div>
+
+    </main>
+
+</body>
+</html>
